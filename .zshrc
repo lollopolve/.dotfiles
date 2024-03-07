@@ -16,10 +16,11 @@ else
   export EDITOR="mvim"
 fi
 
+source "$HOME/.cargo/env"
+
 export PATH="$PATH:/snap/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$HOME/go/bin"
-export PATH="$PATH:$HOME/.cargo/bin"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
